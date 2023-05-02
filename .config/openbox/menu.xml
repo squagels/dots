@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="root-menu" label="Openbox 3">
+  <item label="   File Browser   " icon="/home/Dion/.config/openbox/icons/file-browser.svg">
+    <action name="Execute">
+      <command>thunar</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Thunar</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="   Firefox   " icon="/home/Dion/.config/openbox/icons/firefox.svg">
+    <action name="Execute">
+      <command>firefox</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Firefox</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="   Apple Music   " icon="/home/Dion/.config/openbox/icons/apple-music.svg">
+    <action name="Execute">
+      <command>cider</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Apple Music</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="   Sublime Text   " icon="/home/Dion/.config/openbox/icons/sublime-text.svg">
+    <action name="Execute">
+      <command>subl</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+        <wmclass>Sublime Text</wmclass>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="   Terminal   " icon="/home/Dion/.config/openbox/icons/terminal.svg">
+    <action name="Execute">
+      <command>urxvt</command>
+    </action>
+  </item>
+  <separator />
+  <separator />
+  <item label="   Preferences   " icon="/home/Dion/.config/openbox/icons/preferences.svg">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <separator />
+  <item label="   Log Out   " icon="/home/Dion/.config/openbox/icons/log-out.svg">
+    <action name="Execute">
+      <command>openbox --exit</command>
+    </action>
+  </item>
+  <separator />
+  <item label="   Restart   " icon="/home/Dion/.config/openbox/icons/restart.svg">
+    <action name="Execute">
+      <command>sudo systemctl reboot</command>
+    </action>
+  </item>
+  <separator />
+  <item label="   Shutdown   " icon="/home/Dion/.config/openbox/icons/shutdown.svg">
+    <action name="Execute">
+      <command>sudo systemctl poweroff</command>
+    </action>
+  </item>
+</menu>
+
+</openbox>
