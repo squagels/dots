@@ -1,0 +1,7 @@
+configuration {
+ modi: "window,drun";
+ font: "SF Mono 15";
+ combi-modi: "drun";
+ show-icons: true;
+ }
+@theme "serenity"
