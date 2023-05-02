@@ -1,0 +1,72 @@
+
+! Resolution Scaling ------------------------------------------------------------
+
+Xft.dpi:                144
+Xft.autohint:           0
+Xft.lcdfilter:          lcddefault
+Xft.hintstyle:          hintfull
+Xft.hinting:            1
+Xft.antialias:          1
+Xft.rgba:               rgb
+
+! Cursors -----------------------------------------------------------------------
+
+Xcursor.theme: macOS-BigSur
+Xcursor.size: 40
+
+! Colors ------------------------------------------------------------------------
+
+*background:  #fcfcfc
+*foreground:  #5c6166
+
+*colorBD:     #
+*colorIT:     #
+*colorUL:     #
+
+*cursorColor: #000100
+
+! BLACK
+*color0:      #000100
+*color8:      #000100
+
+! WHITE
+*color7:      #c7c6c7
+*color15:     #c7c6c7
+
+! RED
+*color1:      #ef7070
+*color9:      #ef7070
+
+! YELLOW
+*color3:      #f2ae48
+*color11:     #f2ae48
+
+! GREEN
+*color2:      #86b300
+*color10:     #86b300
+
+! CYAN
+*color6:      #4cbf99
+*color14:     #4cbf99
+
+! BLUE
+*color4:      #399ee6
+*color12:     #399ee6
+
+! MAGENTA
+*color5:      #a47acc
+*color13:     #a47acc
+
+! URxvt -------------------------------------------------------------------------
+
+URxvt.font: xft:SF Mono:size=10
+URxvt.letterSpace: 0
+!URxvt.geometry: 120x60
+URxvt.background: [100]#fcfcfc
+URxvt.scrollBar: false
+URxvt.internalBorder: 80
+URxvt.depth: 32
+URxvt.loginShell: true
+URxvt.keysym.Control-v: eval:paste_clipboard
+!URxvt.keysym.Control-c: eval:selection_to_clipboard
+URxvt.iconFile: /home/Dion/.icons/WhiteSur-grey/apps@2x/scalable/Terminal.svg
